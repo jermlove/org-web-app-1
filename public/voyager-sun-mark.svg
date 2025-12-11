@@ -1,0 +1,47 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crimson Voyager Square Icon - Sun Mark -->
+  
+  <defs>
+    <linearGradient id="sunGradSquare" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFC938;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF4A3A;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#FFC938;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#FFC938;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Glow Background -->
+  <circle cx="120" cy="120" r="100" fill="url(#sunGlow)"/>
+  
+  <!-- Unity Circle -->
+  <circle cx="120" cy="120" r="85" fill="none" stroke="#FF4A3A" stroke-width="8"/>
+  
+  <!-- Rising Sun Arc -->
+  <path d="M 35 120 A 85 85 0 0 0 205 120" fill="url(#sunGradSquare)" opacity="0.9"/>
+  
+  <!-- Extended Sun Rays -->
+  <g stroke="#FFC938" stroke-linecap="round">
+    <!-- Center top -->
+    <line x1="120" y1="35" x2="120" y2="15" stroke-width="7"/>
+    <!-- Diagonals -->
+    <line x1="70" y1="50" x2="55" y2="35" stroke-width="6"/>
+    <line x1="170" y1="50" x2="185" y2="35" stroke-width="6"/>
+    <!-- Wider angles -->
+    <line x1="45" y1="80" x2="25" y2="65" stroke-width="5"/>
+    <line x1="195" y1="80" x2="215" y2="65" stroke-width="5"/>
+    <!-- Horizontal rays -->
+    <line x1="30" y1="120" x2="10" y2="120" stroke-width="5"/>
+    <line x1="210" y1="120" x2="230" y2="120" stroke-width="5"/>
+  </g>
+  
+  <!-- Central Star (enlarged) -->
+  <path d="M 120 95 L 128 115 L 150 117 L 133 132 L 138 155 L 120 143 L 102 155 L 107 132 L 90 117 L 112 115 Z" 
+        fill="#FFC938" stroke="#FF4A3A" stroke-width="3"/>
+  
+  <!-- Forward Vector -->
+  <path d="M 190 118 L 205 120 L 190 122 L 195 120 Z" fill="#FF4A3A"/>
+  <line x1="155" y1="120" x2="195" y2="120" stroke="#FF4A3A" stroke-width="6" stroke-linecap="round"/>
+</svg>

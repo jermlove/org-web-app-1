@@ -1,0 +1,52 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crimson Voyager Light Background - Sunrise to Horizon -->
+  
+  <defs>
+    <!-- Main sunrise gradient -->
+    <linearGradient id="sunriseGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF4A3A;stop-opacity:1" />
+      <stop offset="45%" style="stop-color:#FFC938;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2093F7;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Radial glow for sun effect -->
+    <radialGradient id="sunGlow" cx="30%" cy="70%" r="60%">
+      <stop offset="0%" style="stop-color:#FFC938;stop-opacity:0.4" />
+      <stop offset="50%" style="stop-color:#FF4A3A;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#FF4A3A;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Cloud overlay pattern -->
+    <pattern id="cloudBands" width="800" height="400" patternUnits="userSpaceOnUse">
+      <ellipse cx="200" cy="150" rx="180" ry="40" fill="#FFFFFF" opacity="0.08"/>
+      <ellipse cx="600" cy="280" rx="220" ry="50" fill="#FFFFFF" opacity="0.06"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base gradient fill -->
+  <rect width="1920" height="1080" fill="url(#sunriseGradient)"/>
+  
+  <!-- Radial sun glow -->
+  <rect width="1920" height="1080" fill="url(#sunGlow)"/>
+  
+  <!-- Subtle cloud bands -->
+  <rect width="1920" height="1080" fill="url(#cloudBands)"/>
+  
+  <!-- Horizon line suggestion -->
+  <line x1="0" y1="750" x2="1920" y2="730" stroke="#FFFFFF" stroke-width="2" opacity="0.12"/>
+  
+  <!-- Decorative wave elements (ocean/adventure) -->
+  <path d="M 0 800 Q 240 760, 480 800 T 960 800 T 1440 800 T 1920 800 L 1920 810 Q 1680 850, 1440 810 T 960 810 T 480 810 T 0 810 Z" 
+        fill="#2093F7" opacity="0.08"/>
+  
+  <!-- Small star accents (dreams/goals) -->
+  <g fill="#FFC938" opacity="0.15">
+    <circle cx="1600" cy="200" r="3"/>
+    <circle cx="1750" cy="280" r="2.5"/>
+    <circle cx="1550" cy="340" r="2"/>
+    <circle cx="300" cy="150" r="3"/>
+    <circle cx="180" cy="220" r="2.5"/>
+  </g>
+  
+  <!-- Safe zone for centered login card: 760-1160 x 340-740 -->
+</svg>

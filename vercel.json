@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_AZURE_AD_CLIENT_ID": "@azure_ad_client_id",
+    "NEXT_PUBLIC_AZURE_AD_AUTHORITY": "@azure_ad_authority",
+    "NEXT_PUBLIC_AZURE_AD_KNOWN_AUTHORITY": "@azure_ad_known_authority",
+    "NEXT_PUBLIC_AZURE_AD_REDIRECT_URI": "@azure_ad_redirect_uri"
+  },
+  "regions": ["iad1"]
+}

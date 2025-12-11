@@ -1,0 +1,54 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Crimson Voyager Dark Background - Deep Embers to Resolve -->
+  
+  <defs>
+    <!-- Ember gradient -->
+    <linearGradient id="emberGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#120806;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#3D1410;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#A41711;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glowing embers radial -->
+    <radialGradient id="emberGlow" cx="70%" cy="40%" r="50%">
+      <stop offset="0%" style="stop-color:#FF4A3A;stop-opacity:0.2" />
+      <stop offset="50%" style="stop-color:#A41711;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#120806;stop-opacity:0" />
+    </radialGradient>
+    
+    <!-- Gold sparks pattern -->
+    <pattern id="goldSparks" width="600" height="600" patternUnits="userSpaceOnUse">
+      <circle cx="100" cy="150" r="2" fill="#FFC938" opacity="0.06"/>
+      <circle cx="350" cy="280" r="1.5" fill="#FFC938" opacity="0.05"/>
+      <circle cx="500" cy="420" r="1.8" fill="#FFC938" opacity="0.07"/>
+      <circle cx="250" cy="500" r="1.2" fill="#FFC938" opacity="0.04"/>
+    </pattern>
+  </defs>
+  
+  <!-- Base ember gradient -->
+  <rect width="1920" height="1080" fill="url(#emberGradient)"/>
+  
+  <!-- Radial glow overlay -->
+  <rect width="1920" height="1080" fill="url(#emberGlow)"/>
+  
+  <!-- Gold sparks scattered -->
+  <rect width="1920" height="1080" fill="url(#goldSparks)"/>
+  
+  <!-- Subtle flame-like shapes rising (abstract, not literal fire) -->
+  <path d="M 300 900 Q 320 750, 340 900" stroke="#FF4A3A" stroke-width="1.5" fill="none" opacity="0.08"/>
+  <path d="M 1600 950 Q 1620 820, 1640 950" stroke="#FF4A3A" stroke-width="1.5" fill="none" opacity="0.08"/>
+  
+  <!-- Determination streaks (upward motion) -->
+  <line x1="150" y1="600" x2="170" y2="400" stroke="#FFC938" stroke-width="1" opacity="0.06"/>
+  <line x1="1750" y1="550" x2="1770" y2="350" stroke="#FFC938" stroke-width="1" opacity="0.06"/>
+  
+  <!-- Star accents (glowing dreams) -->
+  <g fill="#FFC938" opacity="0.12">
+    <circle cx="400" cy="250" r="2.5"/>
+    <circle cx="1500" cy="300" r="3"/>
+    <circle cx="800" cy="180" r="2"/>
+    <circle cx="1200" cy="220" r="2.5"/>
+  </g>
+  
+  <!-- Safe zone for login card remains centered -->
+</svg>
