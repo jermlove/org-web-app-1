@@ -3,8 +3,8 @@
  * Crimson Voyager Theme
  */
 
-import './globals.css';
-import '../styles/crimson-voyager-theme.css';
+import '../../styles/globals.css';
+import '../../styles/crimson-voyager-theme.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { AuthProvider } from '@/lib/AuthProvider';
